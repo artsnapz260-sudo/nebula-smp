@@ -1,0 +1,1 @@
+const f=document.getElementById('staffForm');if(f)f.addEventListener('submit',e=>{e.preventDefault();document.getElementById('msg').textContent='✅ Application submitted in demo mode! Connect this form to Google Forms to receive real applications.';f.reset()});
